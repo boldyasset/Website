@@ -4591,6 +4591,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand {
+  /* width: 1280px; */
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
@@ -4598,7 +4599,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
-  scale: 4;
+  scale: 2;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -11785,7 +11786,8 @@ pre .code {
 .header {
   height: 100%;
   min-height: 600px;
-  background: url(../imgs/header.jpg) no-repeat center center fixed;
+  /* background: url(../imgs/header.jpg) no-repeat center center fixed; */
+  background-color: white;
   background-size: cover;
 }
 
